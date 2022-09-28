@@ -1,5 +1,5 @@
 #!/bin/bash
 # Pull this for first time Mac terminal setup and after setting up brew
 
-brew install tree taskwarrior-tui tldr yt-dlp ffmpeg elinks bat && echo "$(date "+%m-%d-%H%M"), Essential Apps installed" >> ~/Desktop/messages.txt
+brew install tree taskwarrior-tui tldr yt-dlp ffmpeg elinks bat htop && echo "$(date "+%m-%d-%H%M"), Essential Apps installed" >> ~/Desktop/messages.txt
 say the installation is complete!
