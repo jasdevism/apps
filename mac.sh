@@ -1,7 +1,11 @@
 #!/bin/bash
 # Pull this for first time Mac terminal setup and after setting up brew
 
-brew install tree nmap telnet  tldr yt-dlp ffmpeg elinks jq iftop htop && echo "$(date "+%m-%d-%H%M"), Essential Apps installed" >> ~/Desktop/messages.txt
+brew install \
+tree nmap telnet tldr \
+elinks jq iftop htop \
+yt-dlp ffmpeg \ 
+&& echo "$(date "+%m-%d-%H%M"), Essential Apps installed" >> ~/Desktop/messages.txt
 say the installation is complete!
 
 # optional
