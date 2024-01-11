@@ -3,20 +3,3 @@
 alias ll="ls -lrth --color=auto"
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
-
-# Use bat instead of cat
-command -v bat > /dev/null && alias cat='bat --pager=never'
-command -v bat > /dev/null && alias less='bat'
-
-#aliases
-alias bat='bat --theme=ansi-dark'
-#alias bat='bat --theme=ansi-light'
-
-# MAN PAGE EXTRA
-export LESS_TERMCAP_mb=$'\e[1;32m'
-export LESS_TERMCAP_md=$'\e[1;32m'
-export LESS_TERMCAP_me=$'\e[0m'
-export LESS_TERMCAP_se=$'\e[0m'
-export LESS_TERMCAP_so=$'\e[01;33m'
-export LESS_TERMCAP_ue=$'\e[0m'
-export LESS_TERMCAP_us=$'\e[1;4;31m'
